@@ -129,9 +129,16 @@
 
 
 <div class="links">
-  <a href="https://github.com" class="primary">Download Latest (.zip)</a>
-  <a href="https://github.com" target="_blank">Release Notes</a>
+  <a id="dl-btn" href="#" class="primary">Download Latest (.zip)</a>
+  <a id="rel-btn" href="#" target="_blank">Release Notes</a>
 </div>
+
+<script>
+  const repo = "https://github.com" + "/GAMER87-ANON63/gamer87-anon63.github.io";
+  document.getElementById("dl-btn").href = repo + "/releases/latest/download/PCHardwareDashboard_Setup.zip";
+  document.getElementById("rel-btn").href = repo + "/releases/latest";
+</script>
+
 
 
 
